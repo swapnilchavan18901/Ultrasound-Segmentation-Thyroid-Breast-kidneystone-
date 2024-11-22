@@ -1,0 +1,75 @@
+/* General container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Grid layout for reports */
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.report-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.image-container {
+    text-align: center;
+    width: 48%;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-label {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Report details */
+.report-details h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.report-details p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Loading and no-reports message */
+.loading-container,
+.no-reports {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    color: #777;
+}

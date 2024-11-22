@@ -1,0 +1,13 @@
+.hero-section{
+    background: url('../assets/bg.jpg');
+}
+section{
+    background-color: transparent;
+}
+div{
+    background-color: transparent;
+}
+h1{
+    font-weight: bold;
+    font-size: 30px;    
+}
